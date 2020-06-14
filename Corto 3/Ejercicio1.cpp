@@ -1,4 +1,4 @@
-// Programa para calcular los salarios de n empleados
+// Programa para calcular los salarios de n empleados 
 
 #include <iostream>
 

@@ -14,13 +14,14 @@ void llenarMatriz (float arreglo[])
 
 float resultadoFinal (float arreglo[])
 {
-    float suma = 0, notaFinal;
+    float suma = 0, ponderacion, notaFinal;
 
     for (int i = 0; i < 5; i++)
     {
-        suma += arreglo[i];
+        ponderacion = arreglo[i] * 0.20;
+        suma += ponderacion;
     }
-    notaFinal = suma/5;
+    notaFinal = suma;
     cout << "La nota final es: " << notaFinal << endl;
     
     if (notaFinal >= 6)
